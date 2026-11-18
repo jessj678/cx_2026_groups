@@ -22,7 +22,7 @@ exclude_imports = ["Cx2026GroupsAuthoring", "Mathlib.Tactic.Linter.MinImports"]
 released_modules = ["Week1", "Week2"]
 site_config = "literate.toml"
 overview_title = "Course overview"
-hide_commands = ["import", "#min_imports", "set_option"]
+hide_commands = ["import", "#min_imports", "set_option", "#import_bumps", "namespace", "section", "NewTactic", "NewTheorem", "public section", "end"]
 
 [modules."Cx2026Groups"]
 title = "Student notes"
@@ -54,6 +54,9 @@ title = "Week 2.0: Group properties"
 
 [modules."Cx2026GroupsTeacher.Week2.Week2_1"]
 title = "Week 2.1: Further group results"
+
+[modules."Cx2026GroupsTeacher.Week2.Week2_2"]
+title = "Week 2.2: Cancellation and using hypotheses"
 
 [modules."Cx2026GroupsTeacher.Week3"]
 title = "Week 3"

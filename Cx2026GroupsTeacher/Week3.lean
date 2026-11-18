@@ -5,6 +5,7 @@ Authors: Gihan Marasingha
 -/
 
 import Cx2026GroupsTeacher.Week3.Week3_0
+import Cx2026GroupsTeacher.Week3.Week2_3
 
 set_option doc.verso.module true
 
